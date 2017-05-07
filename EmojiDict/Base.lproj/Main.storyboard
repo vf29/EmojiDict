@@ -40,6 +40,45 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="865" y="-567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Tip-ON-4e7">
+            <objects>
+                <viewController id="SO0-ha-JG4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qh4-oq-NQ3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nht-ii-ye1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SYp-gw-j21">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🏀" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLX-er-gTb">
+                                <rect key="frame" x="78.5" y="60" width="218" height="239"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="200"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Basketball" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Seb-fP-mNn">
+                                <rect key="frame" x="131" y="349" width="113" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Seb-fP-mNn" firstAttribute="top" secondItem="MLX-er-gTb" secondAttribute="bottom" constant="50" id="8T0-ET-VAa"/>
+                            <constraint firstItem="Seb-fP-mNn" firstAttribute="centerX" secondItem="SYp-gw-j21" secondAttribute="centerX" id="lE1-cI-Y6D"/>
+                            <constraint firstItem="MLX-er-gTb" firstAttribute="top" secondItem="qh4-oq-NQ3" secondAttribute="bottom" constant="40" id="qZY-jO-EPh"/>
+                            <constraint firstItem="MLX-er-gTb" firstAttribute="centerX" secondItem="SYp-gw-j21" secondAttribute="centerX" id="zcE-ZS-UfC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cua-AY-phx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1644" y="-567"/>
         </scene>
     </scenes>
 </document>
